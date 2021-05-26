@@ -1,0 +1,28 @@
+body{
+    color: brown;
+}
+main {
+    font-size: 20px;
+}
+.black-border{
+    border: solid rgb(30, 158, 130);
+    margin: 25px 25px;
+    padding: 15px 20px 15px 20px;
+}
+.center-title{
+    margin: 0 auto;
+    width: 200px;
+}
+.navigation-links li{
+    display: inline;
+    margin: 5px;
+}
+
+@media (min-width: 1024px) {
+    body {
+    background: rgb(179, 162, 150);
+    color: darkgreen;
+    font-size: 10px;
+    line-height: 2.0;
+    }
+}
